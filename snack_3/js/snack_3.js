@@ -70,8 +70,8 @@ for (let i = 0; i < zucchine.length; i++) {
   lunghezza += parseInt(zucchina.lunghezza);
 }
 
-let pesoMedio = peso / 10;
-let lunghezzaMedia = lunghezza / 10;
+let pesoMedio = peso / zucchine.length;
+let lunghezzaMedia = lunghezza / zucchine.length;
 
 console.log(peso + " g");
 console.log(pesoMedio + " g");
