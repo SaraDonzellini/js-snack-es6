@@ -8,10 +8,10 @@ const student = {
   name : "Giuseppina",
   surname : "Fuffini",
   age: 18
-}
+};
 
 for (const chiave in student) {
-  console.log(student[chiave])
+  console.log(student[chiave]);
 }
 
 const students = [
@@ -35,6 +35,6 @@ const students = [
     surname : "Pasquali",
     age: 17
   }
-]
+];
 
-console.log(students)
+console.log(students);
