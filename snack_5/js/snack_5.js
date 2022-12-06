@@ -64,9 +64,11 @@ const persone = [
 
 const nuovePersone = persone.map((persona) => {
   if (persona.età >= 18){
-    console.log(`${persona.nome} ${persona.cognome} ha ${persona.età} anni, può guidare`)
+    return `${persona.nome} ${persona.cognome} ha ${persona.età} anni, può guidare`
   } else {
-    console.log(`${persona.nome} ${persona.cognome} ha ${persona.età} anni, non può guidare`)
+    return `${persona.nome} ${persona.cognome} ha ${persona.età} anni, non può guidare`
   }
 
 })
+
+  console.log(nuovePersone)
